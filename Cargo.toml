@@ -1,0 +1,15 @@
+[dev-dependencies]
+frame-system = { branch = "polkadot-v0.9.21", git = "https://github.com/paritytech/substrate" }
+frame-support = { branch = "polkadot-v0.9.21", git = "https://github.com/paritytech/substrate" }
+parity-scale-codec = { version = "3.0.0" }
+scale-info = { version = "2.1.1" }
+sp-core = { branch = "polkadot-v0.9.21", git = "https://github.com/paritytech/substrate" }
+sp-io = { branch = "polkadot-v0.9.21", git = "https://github.com/paritytech/substrate" }
+sp-runtime = { branch = "polkadot-v0.9.21", git = "https://github.com/paritytech/substrate" }
+
+
+[package]
+authors = ["sea212"]
+edition = "2021"
+name = "substrate-doublemap-migration-error"
+version = "1.0.0"
